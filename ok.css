@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    overflow-x: scroll;
+
+}
+header{
+    height: 60px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: green;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#b{
+    width: 70px;
+    height: 30px;
+}
+/*id cars */
+#cars{
+    width: 80px;
+    height: 30px;
+    border-radius: 0px;
+    border-color: white;
+}
+/*id Q*/
+#Q{
+    text-align: center;
+}
+header h3 img{
+    border-radius: 105px;
+    width: 30px;
+    height: 30px;
+}
+header h1{
+    color: white;
+}
+header h3{
+    color: white;
+}
+/*id c*/
+#c{
+    width: 360px;
+    height: 32px;
+}
+header h3 a {
+    position: relative;
+    bottom: 10px;
+    color: white;
+    text-decoration: none;
+}
+/*# taugh */
+#taugh{
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+    border-bottom: 1px solid;
+    opacity: 5;
+    height: 130px;
+}
+/*id taugh img*/
+#taugh img{
+    width: 70px;
+    height: 80px;
+}
+#taugh  h5{
+
+    font-size: 15px;
+    border-color:  white;
+}
+#taugh select{
+    position: relative;
+    top: 80px;
+    right: 60px;
+    border-color:white ;
+}
+/*.p class ki css*/
+.p{
+    font-size: 15px;
+    color: rgb(129, 129, 129);
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(224, 224, 224);
+    height: 190px;
+}
+/*.p1 class ki css*/
+.p1 img{
+    width: 100px;
+    height: 180px;
+}
+.p1 #i1 img{
+    width: 85px;
+    height: 78px;
+}
+.p1 #i8 img{
+    width: 82px;
+    height: 108px;
+}
+.p1 #i9 img{
+    width: 75px;
+    height: 108px;
+}
+.p1 #i6 img{
+    width: 75px;
+    height: 108px;
+}
+.p1 h4 a{
+    text-decoration: none;
+    color: black;
+}
+.p1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+body{
+    overflow-x: hidden;
+}
+/*p2 ki css starts for the class */
+.p2{
+    box-shadow: 10px 10px 10px 10px rgb(201, 201, 201);
+}
+/*yes ki css number 1 */
+.yes{
+    padding-left: 500px;
+}
+/*.yes class ki css starts from here*/
+.yes hr{
+    width: 540px;
+}
+.yes h4 a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: serif;
+    color: rgb(85, 85, 241);
+}
+/*photo1 css starts from here*/
+#photo2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 10px 10px 10px rgb(157, 182, 182);
+}
+#photo1 img{
+padding-left: 200px;
+width: 300px;
+height: 200px;
+}
+
+/*body ke ander ki select ke option ki css */
+select option{
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    background-color: black;
+    color: aqua;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+select option hr{
+    border: 20px dashed yellow;
+}
+/*bottom id ki css start form here*/
+#bottom
+{
+
+    background-image: url('1.1.webp');
+    background-repeat: repeat-x;
+    background-size: 300px;
+}
+#bottom table{
+    margin: auto;
+    background-color: white;
+}
+/*bottom ke ander ke table ka color*/
+#bottom table tr th a{
+color:black;
+text-decoration: none;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic;
+font-weight: bold; 
+}
+/*bottom ke ander ke table ka color*/
+#bottom table tr td a{
+    color:black;
+    text-decoration: none;
+    font-size: 21px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold; 
+}
+#bottom h4 a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/*class ki css starts from here*/
+.class{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #0e2d4e;
+    color: white;
+    height: 300px;
+    line-height: 30px;
+}
+.class ul li
+{
+    
+        list-style: none;
+}
+.class a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+
+}
+.class p{
+    font-size: 13px;
+}
+.class ul li  a:hover{
+    text-decoration: underline;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+
+}
+
+/*class id ki css starts from here*/
+#class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #0e2d4e;
+}
+
+#class h2 a{
+    text-decoration: none;
+    color:white;
+   font-size: 15px;
+}
+#a1{
+    width: 20px;
+}
+#a2 {
+    width: 30px;
+}
+
+
+/*id an1 ki css start from here */
+#an1{
+    animation-name: mk;
+    animation-timing-function: ease;
+    animation-duration: 55s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    z-index: -1;
+    width: 180px;
+    height: 180px;
+    border-top-left-radius: 1050px;
+    border-top-right-radius: 1050px;
+    border-bottom-left-radius: 1050px;
+    border-bottom-right-radius:1050px;
+    background-image: linear-gradient(to bottom right, rgb(255, 0, 242),rgb(97, 238, 41),yellow,rgb(0, 174, 255));
+    border: 5px red;
+    position: relative;
+    left :50px;
+}
+@keyframes mk {
+    from{
+        translate: 0 0 0;  
+    }
+    to{
+        translate: 20px 20px 120px;
+    }
+    
+}
+

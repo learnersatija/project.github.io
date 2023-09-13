@@ -1,0 +1,92 @@
+/*adjust id ke ander ki css starts from here */
+#adjust{
+    box-shadow: 0px 0px 3px 5px rgba(255, 255, 255, 0.925);
+    box-sizing: border-box;
+    background-color: white;
+}
+#adjust:hover{
+    box-shadow: 0px 0px 3px 5px rgba(243, 237, 237, 0.925);
+    border-radius: 10px;
+}
+/*adjust ke ander ke button ki css starts from here */
+#adjust button{
+    position: relative;
+    left: 350px;
+    bottom: 30px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+/*header ki css starts from here half part */
+header 
+{
+    border-bottom: 2px solid black;
+}
+
+
+/*id d ki css starts from here */
+#d
+{
+    animation-name: that;
+    animation-timing-function: ease-in-out;
+    animation-duration: 12s;
+    animation-delay: 20s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+@keyframes that {
+    from{
+       transform: skewX(0);
+    }
+    to{
+       transform: skewX(180deg);
+    }
+    
+}
+@keyframes ok {
+    from{
+        background-color:rgb(247, 247, 247);
+    }
+    to{
+        background-color: black;
+    }
+}
+.photo{
+    animation-name: that;
+    animation-timing-function: ease-in-out;
+    animation-duration: 12s;
+    animation-delay: 20s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+
+
+
+
+
+
+/*shopsy class ki css starts from here */
+
+.shopsy
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color:rgb(231, 231, 231);;
+}
+/*shopsy class ke ander ki image ki  css starts from here */
+.shopsy img
+{
+    width: 100px;
+    height: 80px;
+}
+/*shopsy class ke ander ke h4 tag ki css starts from here*/
+.shopsy h4{
+    font-size: 20px;
+}
+/*shopsy class ke ander ke h4 tag ke ander ke anchor tag ki  css starts from here*/
+.shopsy h4 a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}

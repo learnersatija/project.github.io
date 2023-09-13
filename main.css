@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+    background-color: rgb(0, 132, 255);
+    height: 50px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+header img{
+    width: 150px;
+    height: 30px;
+    padding-left: 180px;
+    cursor: pointer;
+}
+header input{
+     margin:auto;
+     position: relative ;
+     left: 30px;
+width: 450px;
+height: 30px;    
+}
+header button{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+    background-color: black;
+cursor:pointer;
+}
+header button a{
+    color:aqua;
+    text-decoration: none;
+}
+
+header h3 a{
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+     position: relative;
+     left: 100px;
+     top: 10px;
+}
+header #w{
+    position: relative;
+    top:10px;
+    right: 0px;
+}
+
+
+/*first class ki css starts from here*/
+.first{
+    z-index: 1;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.first img{
+    width: 100px;
+    height: 85px;
+}
+.first h4 a{
+    color: black;
+    font-size: 15px;
+    position: relative;
+    left: 14px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*second class ki css starts from here*/
+.second{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    height: 330px;
+
+}
+.second img{
+    cursor: pointer;
+    width: 120px;
+    height: 190px;
+}
+/*id ok ki css starts from here*/
+#ok a{
+  text-decoration: none;
+  color: black;
+
+}
+#ok button a{
+    text-decoration: none;
+    color: black; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+    font-weight: bold;
+}
+#ok button{
+    background-color: rgb(0, 183, 255);
+    width: 100px;
+    height: 30px;
+    border-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#ok button :hover{
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+
+/*Second class ke ander ke anchor tag ki css starts from here*/
+.second a{
+    color: black;
+    text-decoration: none;
+}
+.second img:hover{
+     height: 170px;
+}
+.second {
+    border: 1px solid;
+    box-shadow: 1px 1px 5px 5px rgb(165, 107, 21);
+background-color: white;}
+.second h5{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: greenyellow;
+}
+
+
+/*third class ki css starts from here*/
+.third {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("images.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.third img{
+    padding:30px;
+}
+.third a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    left: 40px;
+}
+/*id main-1 ki css starts from here*/
+#main{
+    background-image: url("flip2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+/*second class ke liye
+.second img:hover{
+    transform: rotateX(60deg);
+}*/
+
+/*that ki css starts from here*/
+.that{
+width:1300px;
+box-shadow: 1px 1px 10px 5px aqua;
+border: 2px solid black;
+margin: auto;
+height: 500px;
+color: white;
+background-color: black;
+background-image: url("flip.jpg");
+background-repeat: no-repeat;
+background-size: 1300px;
+}
+.that h3 a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.circle{
+    text-align: center;
+    font-size: 30px;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    background-image: linear-gradient( rgb(102, 69, 69) ,blue);
+}
+.circle h6{
+    position: absolute;
+}
+.that a{
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    word-spacing: 20px;
+}
+/*this class ki css starts from here*/
+.this{
+    background-color: black;
+    color: white;
+    height: 2500px;
+    width: 1330px;
+    margin: auto;
+}
+/*class ki css starts from here*/
+.class{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #0e2d4e;
+    color: white;
+    height: 300px;
+    line-height: 30px;
+}
+.class ul li
+{
+    
+        list-style: none;
+}
+.class a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+
+}
+.class p{
+    font-size: 13px;
+}
+.class ul li  a:hover{
+    text-decoration: underline;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+
+}
+
+/*class id ki css starts from here*/
+#class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #0e2d4e;
+}
+
+#class h2 a{
+    text-decoration: none;
+    color:white;
+   font-size: 15px;
+}
+#a1{
+    width: 20px;
+}
+#a2 {
+    width: 30px;
+}
